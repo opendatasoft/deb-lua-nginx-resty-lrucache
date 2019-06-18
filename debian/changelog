@@ -1,0 +1,5 @@
+lua-nginx-resty-lrucache (0.09-1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Kevin Roy <kiniou@gmail.com>  Tue, 18 Jun 2019 15:54:36 +0200

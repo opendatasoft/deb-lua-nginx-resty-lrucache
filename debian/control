@@ -1,0 +1,15 @@
+Source: lua-nginx-resty-lrucache
+Section: interpreters
+Priority: optional
+Maintainer: Kevin Roy <kevin.roy@opendatasoft.com>
+Build-Depends: debhelper (>= 11), dh-lua
+Standards-Version: 4.3.0.1
+Homepage: https://github.com/openresty/lua-resty-lrucache
+
+Package: lua-nginx-resty-lrucache
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, nginx-extras
+Description: Lua-land LRU Cache based on LuaJIT FFI
+ This library implements a simple LRU cache for OpenResty and the ngx_lua module.
+ .
+ This cache also supports expiration time.

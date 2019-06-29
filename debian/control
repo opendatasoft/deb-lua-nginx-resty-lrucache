@@ -2,7 +2,7 @@ Source: lua-nginx-resty-lrucache
 Section: interpreters
 Priority: optional
 Maintainer: Kevin Roy <kevin.roy@opendatasoft.com>
-Build-Depends: debhelper (>= 11), dh-lua
+Build-Depends: debhelper (>= 10), dh-lua
 Standards-Version: 4.3.0.1
 Homepage: https://github.com/openresty/lua-resty-lrucache
 
